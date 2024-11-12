@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="app.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+    <h1>Etch-A-Sketch</h1>
+
+    <div class="header">
+        <h6>Select the size</h6>
+        <button id="popup" class="btn btn-select">Select</button>
+    </div>
+
+    <p id="message"></p>
+    <p id="draw"></p>
+    <div class="container"></div>
+    <div class="footer">
+        <button class="btn btn-black" onclick="setColor('black')">Black</button>
+        <button class="btn btn-erase" onclick="setColor('erase')">Erase</button>
+        <button class="btn btn-random" onclick="setColor('random')">Random</button>
+        <button class="btn btn-reset" onclick="resetBoard('reset')">Reset</button>
+    </div>
+</body>
+</html>
